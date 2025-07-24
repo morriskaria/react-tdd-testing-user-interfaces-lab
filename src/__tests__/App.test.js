@@ -3,4 +3,6 @@ import '@testing-library/jest-dom';
 
 import App from "../App";
 
-// Your tests here
+test('example test', () => {
+  expect(true).toBe(true);
+});
